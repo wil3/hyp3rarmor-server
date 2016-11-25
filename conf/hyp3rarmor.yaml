@@ -1,0 +1,41 @@
+
+# The interface the monitor should listen on
+iface: eth0
+
+#Whether we are using a CDN and need to deploy it somewhere
+# Options, have the IDT in a file and deploy to a file server
+# or have a separate service building IDTs off of IP
+# Possible values: universal, ip
+
+# How many time steps to track, this should be at most 2
+window_size: 2
+
+#Ports the client will be granted access to when authenticated.
+access_ports: 80
+
+# TTL in seconds of the authentication token.  
+token_ttl: 60
+
+# Size of authentication token
+token_size: 3 
+
+# Minimual number of ports to receive in AT
+minimum_receive: 2 
+
+# The type of bot to defense from. Available options are ip or dn
+# If protected from domain name (DN) bots then a CAPTCHA will be generated along
+# with the encrypted AT
+defense: dn 
+
+# Define the scope. If universal, a token will be generated and 
+# shared among all clients. If ip, then the token will be unique
+# to each clients IP address.
+scope:  universal
+
+# Specify how the AT will be exported,
+# valid options are: file
+export: yes
+
+
+
+

@@ -1,0 +1,16 @@
+{
+	"dports": {
+		"type": "array",
+		"minItems":1,
+		"items":{"type":"integers"}
+	}, 
+	"ttl" : {
+
+		"type": "integer"
+	},
+	"expire" :{
+		"type": "integer"
+	}
+}
+
+

@@ -1,0 +1,9 @@
+*.pyc
+*~
+*.db
+gen/*
+logs/*
+*.log
+*.pid
+*.out
+seed.txt

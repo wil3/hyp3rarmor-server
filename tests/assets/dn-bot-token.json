@@ -1,0 +1,23 @@
+
+{
+	"ttl" : {
+		"type": "integer"
+	},
+	"expire" :{
+		"type": "integer"
+	},
+	"iv": {
+		"type": "string"
+	},
+	"salt":{
+		"type": "string"
+	},
+	"ciphertext":{
+		"type": "string"
+	},
+	"tag":{
+		"type": "string"
+	}
+}
+
+

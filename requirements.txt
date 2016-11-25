@@ -1,0 +1,9 @@
+python-iptables
+netifaces
+tailer
+pcapy
+impacket
+cryptography
+pyyaml
+captcha
+jsonpickle
